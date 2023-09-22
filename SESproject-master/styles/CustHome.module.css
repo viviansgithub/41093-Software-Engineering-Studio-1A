@@ -1,0 +1,31 @@
+.Custhomepage h1{
+  text-align: center;
+  font:30px;
+  color: white;
+}
+.Custhomepage p{
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+h1.le {
+font-family: 'Dancing Script', cursive;
+}
+
+.center {
+max-width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.kit {
+width: 80vw;
+max-width: 900px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+display: block;
+border: 2px solid grey;
+}
+

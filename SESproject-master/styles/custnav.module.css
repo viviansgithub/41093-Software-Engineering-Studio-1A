@@ -1,0 +1,44 @@
+.cbtn{
+    background-color: grey;
+    margin: 10px 10px;
+    color:white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    height: 40px;
+}
+.cbtn:hover{
+  color: rgba(0, 0, 0, 0.959);
+}
+.cnav{
+  background-color: #2ecc71;
+  padding: 0;
+  border-color: black;
+  border-bottom: 3px solid grey;
+}
+.cnav a{
+  color: white;
+  padding-left: 14px;
+  font-weight: bold;
+}
+.cnav a:hover{
+  color: rgba(0, 0, 0, 0.575);
+}
+
+.cnav h1 {
+  display: inline-block;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.lk {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

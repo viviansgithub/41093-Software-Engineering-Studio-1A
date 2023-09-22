@@ -1,0 +1,204 @@
+{
+  "financial": [
+    {
+      "month": "2021-04",
+      "sales": 0,
+      "revenue": 0,
+      "profit": 0
+    }
+  ],
+  "users": [
+    {
+      "name": "du",
+      "email": "da@da",
+      "phone": "577",
+      "loyalty": 1,
+      "password": "du",
+      "id": "NB_041p"
+    },
+    {
+      "name": "gh",
+      "email": "gh@gh",
+      "phone": "432",
+      "loyalty": 0,
+      "password": "gh",
+      "id": "cRoHjYY"
+    },
+    {
+      "name": "hi",
+      "email": "jh@jh",
+      "phone": "dj",
+      "loyalty": 0,
+      "password": "jh",
+      "id": "h7t_jCm"
+    },
+    {
+      "name": "hi",
+      "email": "hi@hi",
+      "phone": "21",
+      "loyalty": 0,
+      "password": "hi",
+      "id": "0t2lFb-"
+    }
+  ],
+  "staff": [
+    {
+      "name": "admin",
+      "email": "admin@admin",
+      "phone": "",
+      "role": "admin",
+      "password": "admin",
+      "id": "OmRDEe1"
+    },
+    {
+      "name": "gn",
+      "email": "gn@gn",
+      "phone": "456",
+      "role": "chef",
+      "password": "gn",
+      "id": "t94IlvS"
+    }
+  ],
+  "bookings": [
+    {
+      "name": "hi",
+      "email": "hi@hi",
+      "date": "2021-05-08",
+      "time": "13",
+      "table": "table 3",
+      "numberofpeople": "3",
+      "personId": "zGhYts",
+      "id": 11
+    },
+    {
+      "name": "hi",
+      "email": "hi@hi",
+      "date": "2021-05-09",
+      "time": "18",
+      "table": "table 3",
+      "numberofpeople": "6",
+      "personId": "zGhYts",
+      "id": 12
+    },
+    {
+      "name": "hi",
+      "email": "hi@hi",
+      "date": "2021-05-15",
+      "time": "20",
+      "table": "table 2",
+      "numberofpeople": "2",
+      "personId": "zGhYts",
+      "id": 13
+    },
+    {
+      "name": "du",
+      "email": "du@du",
+      "date": "2021-04-10",
+      "time": "14",
+      "table": "table 3",
+      "numberofpeople": "1",
+      "personId": "NB_041p",
+      "id": 14
+    },
+    {
+      "name": "du",
+      "email": "du@du",
+      "date": "2021-05-12",
+      "time": "14",
+      "table": "table 3",
+      "numberofpeople": "3",
+      "personId": "NB_041p",
+      "id": 15
+    },
+    {
+      "name": "du",
+      "email": "du@du",
+      "date": "2021-05-26",
+      "time": "13",
+      "table": "table 3",
+      "numberofpeople": "3",
+      "personId": "NB_041p",
+      "id": 16
+    },
+    {
+      "name": "du",
+      "email": "da@da",
+      "date": "2021-05-30",
+      "time": "14",
+      "table": "table 4",
+      "numberofpeople": "3",
+      "personId": "NB_041p",
+      "id": 17
+    },
+    {
+      "name": "du",
+      "email": "da@da",
+      "date": "2021-05-30",
+      "time": "15",
+      "table": "table 1",
+      "numberofpeople": "5",
+      "personId": "NB_041p",
+      "id": 18
+    },
+    {
+      "name": "du",
+      "email": "da@da",
+      "date": "2021-05-31",
+      "time": "17",
+      "table": "table 1",
+      "numberofpeople": "2",
+      "personId": "NB_041p",
+      "id": 19
+    }
+  ],
+  "dishes": [
+    {
+      "name": "Fried Noodles",
+      "category": "Main",
+      "desc": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "price": "25",
+      "photoName": "noodles.jpg",
+      "id": 4
+    },
+    {
+      "name": "Margherita",
+      "category": "Entree",
+      "desc": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "price": "20",
+      "photoName": "p1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Salad",
+      "category": "Side",
+      "desc": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "price": "10",
+      "photoName": "s1.jpg",
+      "id": 8
+    },
+    {
+      "name": "Burger",
+      "category": "Entree",
+      "desc": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "price": "15",
+      "photoName": "burger.jpg",
+      "id": 6
+    },
+    {
+      "name": "Choco Lava Cake",
+      "category": "Dessert",
+      "desc": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "price": "10",
+      "photoName": "c3.jpg",
+      "id": 7
+    },
+    {
+      "name": "Fried Rice",
+      "category": "Main",
+      "desc": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "price": "22",
+      "photoName": "Vegetable-Fried-Rice-2-3.jpg",
+      "id": 9
+    }
+  ]
+}

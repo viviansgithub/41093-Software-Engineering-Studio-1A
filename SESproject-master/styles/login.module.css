@@ -1,0 +1,76 @@
+.loginbox{
+  width: 380px;
+  padding: 40px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #2ecc71;
+}
+.loginbox h1{
+  font-family: 'Dancing Script', cursive;
+}
+
+.loginbox input[type="email"], .loginbox input[type="password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border:2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+/*This gives the animation effect.*/
+.loginbox input[type="email"]:focus, .loginbox input[type="password"]:focus{
+  width:280px;
+  border-color: #2ecc71;
+}
+
+.loginbox input[type="submit"]{
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  border:2px solid #2ecc71;
+  padding:14px 40px;
+  color:white;
+  border-radius:24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.loginbox input[type="submit"]:hover{
+  background: #2ecc71;
+}
+
+
+.loginbox input[type='email']:hover + .hideE {
+  display:inline-block;
+  position: relative;
+  color: white;
+  border-radius: 6px;
+}
+    
+.loginbox input[type='password']:hover + .hideP {
+  display:inline-block;
+  position:relative;
+  color: white;
+  border-radius: 6px;
+}
+
+.loginbox label{
+  color: white;
+  padding-left: 14px;
+  float: right;
+  padding-right: 5px;
+}
+
+

@@ -1,0 +1,103 @@
+.popup{
+    z-index:1;
+    border:1px solid black;
+    border-radius: 5px;
+    width:400px; 
+    height:100px;
+    position:absolute;
+    background-color:#dddddd;
+    left:50%;
+    top: 50%;
+    margin-top:-50px;
+    margin-left: -200px;
+}
+.popuptext p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.popuptext button{
+    
+}
+.popuptext button:hover{
+    background-color: #2ecc71;
+}
+.mtnoneform{
+    background: #191919;
+    width: 350px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #2ecc71;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mtnone1 h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.center {
+    text-align: center;
+}
+
+.mtnoneform input[type="email"], .mtnoneform input[type="password"], .mtnoneform input[type="tel"], .mtnoneform input[type="text"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align:center;
+    border:2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin-bottom:1px;
+}
+.mtnoneform input[type="email"]:focus, .mtnoneform input[type="password"]:focus, .mtnoneform input[type="tel"]:focus, .mtnoneform input[type="text"]:focus{
+    width:280px;
+    border-color: #2ecc71;
+}
+.mtnoneform input[type="submit"]{
+    border:0;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    border:2px solid #2ecc71;
+    padding:10px 20px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.mtnoneform input[type="submit"]:hover{
+    background: #2ecc71;
+}
+.mtnoneform label{
+    color: white;
+    float: right;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.mtnoneform button{
+    border:0;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    border:2px solid #2ecc71;
+    margin-top: 20px;
+    padding:10px 20px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+    /* float:right; */
+}
+.mtnoneform button:hover{
+    background: #2ecc71;
+}
+  

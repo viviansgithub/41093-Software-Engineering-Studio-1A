@@ -1,0 +1,176 @@
+.mtn h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.center {
+    text-align: center;
+}
+
+.mtnb{
+    margin-left: 10px;
+}
+.mtnb{
+    border:0;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    border:2px solid #3498db;
+    padding:10px 20px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.mtnb:hover{
+    background-color: #3498db;
+}
+.mtntable{
+    border-collapse: collapse;/* reduces the space b/w the cells */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    color: black;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 15);
+}
+.mtntable thead tr{
+    background-color: #2ecc71;
+    color: white;
+    text-align: left;
+    font-weight: bold; 
+}
+.mtntable td{
+    padding: 12px 15px;
+}
+.mtntable tbody tr{
+    border-bottom:1px solid #dddddd;
+}
+.mtntable tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.mtntable tbody tr:nth-of-type(odd){
+    background-color: #dddddd;
+}
+.mtntable tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+.mtntable tbody td{
+    text-align: center;
+}
+.mtntable thead td{
+    text-align: center;
+}
+
+.mtntable button:hover{
+    background: #3498db;
+}
+.mtntable button{
+    border:0;
+    background: none;
+    display: block;
+    margin: -5px auto;
+    text-align: center;
+    border:2px solid #3498db;
+    padding:7px 14px;
+    outline:none;
+    color:black;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.addmember{
+    z-index:1;
+    border: 2px solid #2ecc71;
+    border-radius: 15px;
+    width: 420px;
+    height: 500px;
+    position:absolute; 
+    background-color: #191919;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -210px;
+    text-align: center;
+    align-content: center;
+}
+.addmember h2{
+text-align: center;
+}
+.addmember input[type="submit"]{
+    border:0;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    border:2px solid #2ecc71;
+    padding:10px 20px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.addmember input[type="submit"]:hover{
+    background: #2ecc71;
+}
+.addmember button{
+    border:0;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    border:2px solid #2ecc71;
+    margin-top: 20px;
+    padding:10px 20px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+    /* float:right; */
+}
+.addmember button:hover{
+    background: #2ecc71;
+}
+/* .addmembertable{
+    margin-left:auto;
+    margin-right: auto;
+} */
+
+.addmembertable {
+    display: inline-block;
+}
+
+.addmembertable input[type="text"], .addmembertable input[type="email"], .addmembertable input[type="number"], .addmembertable input[type="tel"], .addmembertable input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 0px auto; /*changing the first parameter decreases the size of the form*/
+    text-align:center;
+    border:2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin-bottom: 7px;
+}
+.addmembertable input[type="text"]:focus, .addmembertable input[type="email"]:focus, .addmembertable input[type="number"]:focus, .addmembertable input[type="tel"]:focus, .addmembertable input[type="password"]:focus{
+    width:280px;
+    border-color: #2ecc71;
+}
+
+.addmembertable label {
+    float: right;
+    padding-right: 5px;
+    margin-bottom: 0px;
+}
+
+.addmembersubmit {
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+.home{
+    background-color: #191919;
+    padding:53px;
+    text-align: center;
+}
+
+h1.le {
+    font-family: 'Dancing Script', cursive;
+}
+
+.homepage {
+    background-color: #191919;
+    height: 100vh;
+}
+
+.box {
+    width: 380px;
+    padding: 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #2ecc71;
+}
+
+button.but {
+    background: none;
+    text-align: center;
+    margin-top: 10px;
+    border:2px solid #2ecc71;
+    padding:14px 40px;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+button.but:hover {
+    background: #2ecc71;
+}
+
+.homepage a{
+    font-size: xx-large;
+}
+
+img.back {
+    height: 80vh;
+    width: 100vw;
+    display: block;
+    max-height: 790px;
+}

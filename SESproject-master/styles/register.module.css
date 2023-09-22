@@ -1,0 +1,63 @@
+.registerform{
+  width: 400px;
+  padding: 20px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #2ecc71;
+}
+.registerform h1{
+  font-family: 'Dancing Script', cursive;
+}
+
+.registerform input[type="email"], .registerform input[type="password"], .registerform input[type="tel"], .registerform input[type="text"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align:center;
+  border:2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+
+.registerform input[type="email"]:focus, .registerform input[type="password"]:focus, .registerform input[type="tel"]:focus, .registerform input[type="text"]:focus{
+  width:260px;
+  border-color: #2ecc71;
+}
+.registerform input[type="submit"]:hover{
+  background: #2ecc71;
+}
+.registerform label{
+  color: white;
+  float: right;
+  padding-right: 5px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.registerform input[type="submit"]{
+  border:0;
+  background: none;
+  display: inline-block;
+  margin: 20px auto;
+  text-align: center;
+  border:2px solid #2ecc71;
+  padding:14px 40px;
+  color:white;
+  border-radius:24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+

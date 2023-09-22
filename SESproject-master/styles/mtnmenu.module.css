@@ -1,0 +1,191 @@
+.adddish {
+        z-index:1;
+        border: 2px solid #2ecc71;
+        border-radius: 15px;
+        width: 420px;
+        height: 550px;
+        position:absolute; 
+        background-color: #191919;
+        left: 50%;
+        top: 50%;
+        margin: -275px -210px;
+}
+
+.center {
+    text-align: center;
+}
+
+.adddish h2{
+    text-align: center;
+}
+.adddishtable{
+    margin-left:auto;
+    margin-right: auto;
+}
+.adddishtable textarea, .adddishtable input[type="number"], .adddishtable input[type="file"], .adddishtable input[type="text"], .adddishtable select{
+    border:0;
+    background: none;
+    display: block;
+    margin: 7px auto; /*changing the first parameter decreases the size of the form*/
+    text-align:center;  
+    border:2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin-bottom:1px;
+}
+.adddishtable select{
+    background: #191919;
+
+}
+
+.adddishtable textarea {
+    resize: none;
+}
+
+.adddishtable textarea:focus, .adddishtable input[type="number"]:focus, .adddishtable input[type="file"]:focus, .adddishtable input[type="text"]:focus, .adddishtable select:focus{
+    width:280px;
+    border-color: #2ecc71;
+}
+.adddish input[type="submit"]{
+    border:0;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    border:2px solid #2ecc71;
+    padding:10px 20px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.adddish input[type="submit"]:hover{
+    background: #2ecc71;
+}
+.adddish button{
+    border:0;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    border:2px solid #2ecc71;
+    margin-top: 20px;
+    padding:10px 20px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+    /* float:right; */
+}
+.adddish button:hover{
+    background-color: #2ecc71;
+}
+.addmembersubmit{
+    text-align: center;
+}
+.mtnmenutable{
+    border-collapse: collapse;/* reduces the space b/w the cells */
+    margin:25px 0;
+    font-size: 0.9em;
+    min-width: 100px;
+    max-width: 100vw;
+    color: black;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 15);
+    margin-left: auto;
+    margin-right: auto;
+}
+.mtnmenutable thead tr{
+    background-color: #2ecc71;
+    color: white;
+    text-align: center;
+    font-weight: bold; 
+}
+
+.menuimg {
+    width: auto;
+    max-width: 150px;
+    min-width: 30px;
+    height: auto;
+}
+
+.mtnmenutable td{
+    padding: 12px 15px;
+}
+.mtnmenutable tbody tr{
+    border-bottom:1px solid #dddddd;
+}
+.mtnmenutable tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.mtnmenutable tbody tr:nth-of-type(odd){
+    background-color: #dddddd;
+}
+.mtnmenutable tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+.mtnmenutable tbody td{
+    text-align: center;
+    padding: 5px;
+}
+.mtnmenutable button:hover{
+    background: #3498db;
+}
+.mtnmenu h1{
+    font-family: 'Dancing Script', cursive;
+}
+.mtnmenub {
+    border:0;
+    background: none;
+    display: block;
+    text-align: center;
+    border:2px solid #3498db;
+    padding:14px 40px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mtnmenub:hover{
+    background-color: #3498db;
+}
+.mtnmenuopt p{
+    display: inline-block;
+    margin-left: 10px;
+}
+.mtnmenuopt select{
+    border:0;
+    background: #191919;
+    margin-left: 10px;
+    text-align:center;
+    border:2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.mtnmenutable button{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #3498db;
+    padding:14px 20px;
+    outline:none;
+    color:black;
+    border-radius:24px;
+    transition: 0.25s;
+    cursor: pointer;
+}

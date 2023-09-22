@@ -1,0 +1,63 @@
+.staffviewbooktable {
+    border-collapse: collapse;/* reduces the space b/w the cells */
+    margin:25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    color: black;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.center {
+    text-align: center;
+}
+
+.staffviewbooktable thead tr{
+    background-color: #2ecc71;
+    color: white;
+    text-align: center;
+    font-weight: bold; 
+}
+.staffviewbooktable td{
+    padding: 12px 15px;
+}
+.staffviewbooktable tbody tr{
+    border-bottom:1px solid #dddddd;
+}
+.staffviewbooktable tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.staffviewbooktable tbody tr:nth-of-type(odd){
+    background-color: #dddddd;
+}
+.staffviewbooktable tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+.staffbookings label{
+    margin-left: 10px;
+}
+.staffbookings input[type="date"]{
+    border:0;
+    background: none;
+    margin: 10px auto;
+    margin-left: 10px;
+    text-align:center;
+    border:2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.staffviewbooktable p{
+    font-weight: bolder;
+    color: white;
+}
